@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #04060e;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Global uniform scrollbar styling matching the messaging page style */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.3);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.45);
+}
